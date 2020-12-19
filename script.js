@@ -13,7 +13,7 @@ let count = 5; //amount of photos fetched
 apiKey = '2umqhiDmFcKiOn6XOGQDowJXDcus1lfKr1St-r_mS6c';
 
 // api key is public due to being for learning purposes and scope of this project. Normally, it should be hidden in a proxy server
-let apiUrl = `http://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}
 `;
 
 //check if all images were loaded
@@ -24,7 +24,7 @@ function imageLoaded() {
     loader.hidden = true;
     // after loading first 5 images change count to 10 and update the apiUrl to fetch 10 images every time
     count = 10;
-    apiUrl = `http://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}
+    apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}
 `;
   }
 }
