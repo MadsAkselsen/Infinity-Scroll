@@ -9,7 +9,7 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplah API
-let count = 5;
+let count = 5; //amount of photos fetched
 apiKey = '2umqhiDmFcKiOn6XOGQDowJXDcus1lfKr1St-r_mS6c';
 
 // api key is public due to being for learning purposes and scope of this project. Normally, it should be hidden in a proxy server
